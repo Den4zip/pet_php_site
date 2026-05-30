@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+.hero {
+    background: url('https://via.placeholder.com/1500x500/000000/FFFFFF?text=Электрогитары') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.btn {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #f67c59;
+}
+.container {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #333;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.product-card h3 {
+    margin-bottom: 0.5rem;
+    color: #e44d26;
+}
+.product-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.about-us, .contact, .auth-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    max-width: 500px;
+    margin: 2rem auto;
+}
+.contact form, .auth-form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact label, .auth-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.contact input, .contact textarea, .auth-form input {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact button, .auth-form button {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+.contact button:hover, .auth-form button:hover {
+    background-color: #f67c59;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+.alert {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
